@@ -1,19 +1,19 @@
-function paragraphSelector() {
+function paragraphSelector(){
   return $('p')
 };
 
-function lastImageSelector() {
+function lastImageSelector(){
   return $('img:last')
 }
 
-function ninjaBabySelector() {
+function ninjaBabySelector(){
   return $('#baby-ninja')
 }
 
-function divSelector() {
+function divSelector(){
   return $('.pics')
-}
+};
 
-function firstListItem() {
+function firstListItem(){
   return $('ul li:first-child')
-}
+};
