@@ -1,7 +1,7 @@
 // declare your functions here...
 function paragraphSelector() {
-  return $('p');
-};
+  return $('p')
+}
 
 function lastImageSelector() {
   return $('img:last');
@@ -16,5 +16,5 @@ function divSelector() {
 };
 
 function firstListItem() {
-  return $('ul li:first-child');
+  return $('li:first')
 };
