@@ -10,7 +10,7 @@ function paragraphSelector() {
  }
 	
 function lastImageSelector() {
-	return $('img:last'); // use the last jQuery selector to return the last image in index.html
+	return $('div:last'); // use the last jQuery selector to return the last image in index.html
 }
 
 function ninjaBabySelector() {
@@ -22,5 +22,7 @@ function divSelector() {
 }
 
 function firstListItem() {
-	return $('ul li:first-child');  // use a first-child selector to retun the first list item in the ul with the ID pic-list
+	return $('div-pic-list:first-child');  // use a first-child selector to retun the first list item in the ul with the ID pic-list
 }
+// declare your functions here...
+
