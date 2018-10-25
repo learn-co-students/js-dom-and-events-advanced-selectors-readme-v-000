@@ -1,1 +1,31 @@
 // declare your functions here...
+
+function paragraphSelector () {
+  return $("p");
+}
+// const paragraphSelector = () => {
+//  return $("p");
+// };
+function lastImageSelector() {
+  return $("img:last");
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja');
+}
+
+function divSelector() {
+  return $('div.pics');
+}
+function firstListItem() {
+  return $('ul li:first');
+}
+
+
+// const firstListItem = () => {
+//   return $('ul li:first');
+// };
+
+// const arrowFunction = () => {
+//   return 'Arrow functions are great too!';
+// };
