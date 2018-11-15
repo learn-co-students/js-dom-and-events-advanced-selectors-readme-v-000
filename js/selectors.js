@@ -38,8 +38,5 @@ function divSelector () {
 
 function firstListItem () {
     const fli = $('#pic-list li:first-child')
-    // "ul" was not necessary because #pic-list took care of it;
-    // li:first-child was correct bec. the li returned is the first child
-    // of the ul with the id #pic-list
     return fli
 }
