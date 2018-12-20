@@ -19,12 +19,7 @@ function divSelector() {
     return $('div.pics');
 }
 
-//return the 
+//return the first li inside of ul
 function firstListItem() {
     return $('ul li:first-child');
 }
-// $('#baby-ninja'); // select a specific id
-// $('ul li'); // descendant selector 
-// $('div img:first-child'); // first child selector, select the first img in a div
-// $("img[alt='the beatles making faces']"); // alt tag selector
-// $('div:last'); // select last div on page
