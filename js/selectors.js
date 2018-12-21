@@ -1,9 +1,13 @@
 // declare your functions here...
 
-const paragraphSelector = function () {
-	return document.$('p');
-};
+$(document).ready(function() {
+  // code to be executed goes here
 
-const lastImageSelector = function () {
-	return $('img:last');
-};
+	const paragraphSelector = function () {
+		return $('p');
+	};
+
+	const lastImageSelector = function () {
+		return $('img:last');
+	};
+});
