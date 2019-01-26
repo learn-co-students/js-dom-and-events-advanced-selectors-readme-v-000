@@ -14,19 +14,13 @@ function ninjaBabySelector(){
 
 }
 
- function diveSelector(){
+ function divSelector(){
     return $('div.pics');
    }
 
-function lastImageSelector(){
-    return $('.pics');
-}
-
-
-
 
 function firstListItem(){
-    return $('#pic-list ul li:first-child')
+    return $('ul#pic-list li:first-child')
 }
 
 
