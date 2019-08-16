@@ -1,20 +1,20 @@
 // declare your functions here...
-const paragraphSelector = function () {
-  $('p');
+function paragraphSelector() {
+  return $('p');
 }
 
-const lastImageSelector = function () {
-  $('img:last');
+function lastImageSelector () {
+  return $('img:last');
 }
 
-const ninjaBabySelector = function () {
-  $('#baby-ninja');
+function ninjaBabySelector () {
+  return $('#baby-ninja');
 }
 
-const divSelector = function () {
-  $(".pics");
+function divSelector () {
+  return $(".pics");
 }
 
-const firstListItem = function () {
-  $("#pic-list li:first-child");
+function firstListItem () {
+  return $("#pic-list li:first-child");
 }
